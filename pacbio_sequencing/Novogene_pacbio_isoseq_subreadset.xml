@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pbds:SubreadSet UniqueId="9d01a56b-92d6-486b-817d-bd72c7514668" MetaType="PacBio.DataSet.SubreadSet" TimeStampedName="SubreadSetCollection_161128_060502862" CreatedAt="2016-11-28T06:05:02Z" Name="Run008_20161127" Tags="subreadset" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbdm="http://pacificbiosciences.com/PacBioDataModel.xsd" xmlns:pbds="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:pbsample="http://pacificbiosciences.com/PacBioSampleInfo.xsd" xmlns:pbrk="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbpn="http://pacificbiosciences.com/PacBioPartNumbers.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">
+<pbbase:ExternalResources>
+<pbbase:ExternalResource Description="Points to the subreads bam file." MetaType="PacBio.SubreadFile.SubreadBamFile" Name="subreads bam" ResourceId="m54059_161127_212038.subreads.bam" TimeStampedName="pacbio_subreadfile_subreadbamfile-161128_060502958" UniqueId="631563b7-f5a2-4674-8b89-84a2ac0c3513" Version="3.0.1">
+	<pbbase:FileIndices>
+		<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="m54059_161127_212038.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-161128_060502958" UniqueId="e30afc7c-1b25-4ddd-9255-c1ddcf60094c" Version="3.0.1" />
+	</pbbase:FileIndices>
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource Description="Points to the scraps bam file." MetaType="PacBio.SubreadFile.ScrapsBamFile" Name="scraps bam" ResourceId="m54059_161127_212038.scraps.bam" TimeStampedName="pacbio_subreadfile_scrapsbamfile-161128_060502958" UniqueId="896ee4bd-8488-4af6-b4ca-145609053b66" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="m54059_161127_212038.scraps.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-161128_060502958" UniqueId="ef9b7dc3-53cc-4447-9306-6276a1f0f190" Version="3.0.1" />
+			</pbbase:FileIndices>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource Description="Points to the summary sts.xml file." MetaType="PacBio.SubreadFile.ChipStatsFile" Name="Chipstats XML" ResourceId="m54059_161127_212038.sts.xml" TimeStampedName="pacbio_subreadfile_chipstatsfile-161128_060502958" UniqueId="ba9e96c4-49ac-4740-84d9-507b6d8b9f82" Version="3.0.1" />
+	</pbbase:ExternalResources>
+</pbbase:ExternalResource>
+</pbbase:ExternalResources>
+<pbds:DataSetMetadata>
+<pbds:TotalLength>3788597315</pbds:TotalLength>
+<pbds:NumRecords>1204403</pbds:NumRecords>
+<pbmeta:Collections>
+<pbmeta:CollectionMetadata Context="m54059_161127_212038" Status="Ready" InstrumentId="54059" InstrumentName="54059" UniqueId="9d01a56b-92d6-486b-817d-bd72c7514668" MetaType="CollectionMetadata" TimeStampedName="54059-CollectionMetadata-2016-47-26T23:47:45.226Z" CreatedAt="2016-11-25T10:47:10.47Z" ModifiedAt="0001-01-01T00:00:00">
+	<pbmeta:InstCtrlVer>3.1.1.183540</pbmeta:InstCtrlVer>
+	<pbmeta:SigProcVer>3.1.1-182013</pbmeta:SigProcVer>
+	<pbmeta:RunDetails>
+		<pbmeta:TimeStampedName>r54059_20161126_234745</pbmeta:TimeStampedName>
+		<pbmeta:Name>Run008_20161127</pbmeta:Name>
+		<pbmeta:WhenCreated>2016-11-25T10:47:10.47Z</pbmeta:WhenCreated>
+		<pbmeta:WhenStarted>2016-11-26T23:52:16.7278Z</pbmeta:WhenStarted>
+	</pbmeta:RunDetails>
+	<pbmeta:WellSample Name="TBCP-1714_NHZY_ZTR16083562-Q1-3-6K_10" CreatedAt="2016-11-25T10:47:10.47Z" ModifiedAt="0001-01-01T00:00:00">
+		<pbmeta:WellName>H01</pbmeta:WellName>
+		<pbmeta:Concentration>0.0</pbmeta:Concentration>
+		<pbmeta:InsertSize>5000</pbmeta:InsertSize>
+		<pbmeta:SampleReuseEnabled>false</pbmeta:SampleReuseEnabled>
+		<pbmeta:StageHotstartEnabled>false</pbmeta:StageHotstartEnabled>
+		<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
+		<pbmeta:UseCount>0</pbmeta:UseCount>
+	</pbmeta:WellSample>
+	<pbmeta:Automation Name="Workflow_Magbead.py">
+		<pbbase:AutomationParameters>
+			<pbbase:AutomationParameter ValueDataType="Double" SimpleValue="360" Name="MovieLength" CreatedAt="2016-11-25T10:47:10.47Z" ModifiedAt="0001-01-01T00:00:00" />
+			<pbbase:AutomationParameter ValueDataType="Double" SimpleValue="120" Name="ImmobilizationTime" CreatedAt="2016-11-25T10:47:10.47Z" ModifiedAt="0001-01-01T00:00:00" />
+			<pbbase:AutomationParameter ValueDataType="Int32" SimpleValue="3" Name="CollectionNumber" />
+			<pbbase:AutomationParameter ValueDataType="String" SimpleValue="False" Name="UseStageHotStart" />
+			<pbbase:AutomationParameter ValueDataType="Int32" SimpleValue="5000" Name="InsertSize" />
+		</pbbase:AutomationParameters>
+	</pbmeta:Automation>
+	<pbmeta:CollectionNumber>3</pbmeta:CollectionNumber>
+	<pbmeta:CellIndex>3</pbmeta:CellIndex>
+	<pbmeta:CellPac PartNumber="100-513-100" LotNumber="320746" Barcode="BA036511636158784387354430" ExpirationDate="2017-05-02" />
+	<pbmeta:TemplatePrepKit MinInsertSize="500" MaxInsertSize="20000" PartNumber="100-259-100" LotNumber="008465" Barcode="008465100259100022817" ExpirationDate="2017-02-28" Name="SMRTbell™ Template Prep Kit">
+		<pbbase:LeftAdaptorSequence>ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbbase:LeftAdaptorSequence>
+		<pbbase:RightAdaptorSequence>ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbbase:RightAdaptorSequence>
+	</pbmeta:TemplatePrepKit>
+	<pbmeta:BindingKit PartNumber="100-619-300" LotNumber="000955" Barcode="000955100619300120416" ExpirationDate="2016-12-04" Name="Sequel™ Binding Kit 1.0" />
+	<pbmeta:SequencingKitPlate PartNumber="100-902-100" LotNumber="161019" Barcode="161019100902100041917" ExpirationDate="2017-04-19" Name="Sequel™ Sequencing Plate 1.2">
+		<pbrk:ReagentTubes PartNumber="100-619-700" LotNumber="307053" ExpirationDate="2018-07-25" />
+		<pbrk:ReagentTubes PartNumber="100-619-600" LotNumber="008604" ExpirationDate="2020-11-30" />
+	</pbmeta:SequencingKitPlate>
+	<pbmeta:Primary>
+		<pbmeta:AutomationName>SequelAlpha</pbmeta:AutomationName>
+		<pbmeta:ConfigFileName>SqlPoC_SubCrf_2C2A-t2.xml</pbmeta:ConfigFileName>
+		<pbmeta:SequencingCondition>DefaultPrimarySequencingCondition</pbmeta:SequencingCondition>
+		<pbmeta:OutputOptions>
+			<pbmeta:ResultsFolder>r54059_20161126_234745/4_H01/</pbmeta:ResultsFolder>
+			<pbmeta:CollectionPathUri>/Rawdata/sequelData/r54059_20161126_234745/4_H01/</pbmeta:CollectionPathUri>
+			<pbmeta:CopyFiles>
+				<pbmeta:CollectionFileCopy>Fasta</pbmeta:CollectionFileCopy>
+				<pbmeta:CollectionFileCopy>Bam</pbmeta:CollectionFileCopy>
+			</pbmeta:CopyFiles>
+			<pbmeta:Readout>Bases_Without_QVs</pbmeta:Readout>
+			<pbmeta:MetricsVerbosity>Minimal</pbmeta:MetricsVerbosity>
+			<pbmeta:TransferResource>
+				<pbmeta:Id>srs-scheme-0</pbmeta:Id>
+				<pbmeta:TransferScheme>SRS</pbmeta:TransferScheme>
+				<pbmeta:Name>Transfer SRS scheme name</pbmeta:Name>
+				<pbmeta:Description>Description of SRS (Rsync+SSH) Transfer SRS scheme name with destPath /Rawdata/sequelData</pbmeta:Description>
+				<pbmeta:DestPath>/Rawdata/sequelData</pbmeta:DestPath>
+			</pbmeta:TransferResource>
+		</pbmeta:OutputOptions>
+	</pbmeta:Primary>
+	<pbmeta:Secondary>
+		<pbmeta:AutomationName>DefaultSecondaryAutomationName</pbmeta:AutomationName>
+		<pbmeta:AutomationParameters>
+			<pbmeta:AutomationParameter ValueDataType="String" SimpleValue="DefaultSecondaryAnalysisReferenceName" Name="Reference" CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" />
+		</pbmeta:AutomationParameters>
+		<pbmeta:CellCountInJob>0</pbmeta:CellCountInJob>
+	</pbmeta:Secondary>
+	<pbmeta:UserDefinedFields>
+		<pbbase:DataEntities ValueDataType="String" SimpleValue="DefaultUserDefinedFieldLIMS" Name=" LIMS_IMPORT " />
+	</pbmeta:UserDefinedFields>
+</pbmeta:CollectionMetadata>
+</pbmeta:Collections>
+</pbds:DataSetMetadata>
+</pbds:SubreadSet>
