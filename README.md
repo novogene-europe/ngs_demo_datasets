@@ -71,7 +71,7 @@ Arabidopsis | [Novogene_arabidopsis_singlecell_R1.fq.gz](https://hweu-ld.oss-eu-
 
 species | subread_bam | subread_bam_index | md5sum | data size
 ---|:--:|:--:|:--:|:--
-Human | [Novogene_pacbio_isoseq_subreads.bam](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190601152411/Novogene_pacbio_isoseq_subreads.bam) | [Novogene_pacbio_isoseq_subreads.bam.pbi](https://github.com/zanmer/NGS-data/blob/master/pacbio_sequencing/Novogene_pacbio_isoseq_subreads.bam.pbi) | [md5](https://github.com/zanmer/NGS-data/blob/master/pacbio_sequencing/Novogene_pacbio_isoseq.MD5) | 
+Human | [Novogene_pacbio_isoseq_subreads.bam](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190601152411/Novogene_pacbio_isoseq_subreads.bam) | [Novogene_pacbio_isoseq_subreads.bam.pbi](https://github.com/zanmer/NGS-data/blob/master/pacbio_sequencing/Novogene_pacbio_isoseq_subreads.bam.pbi) | [md5](https://github.com/zanmer/NGS-data/blob/master/pacbio_sequencing/Novogene_pacbio_isoseq.MD5) | 4G
 
 - ### Pacbio Genome Sequencing
 
