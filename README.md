@@ -115,7 +115,7 @@ Human | [Novogene_10x_genome_i1_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs
 
 species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
-16S V4 | [Novogene_16s_v4_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105819/Novogene_16s_v4_R1.fq.gz) | [Novogene_16s_v4_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105820/Novogene_16s_v4_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_16s_v4.MD5) | 1.7G
+16S V4 | [Novogene_16s_v4_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105819/Novogene_16s_v4_R1.fq.gz) | [Novogene_16s_v4_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105820/Novogene_16s_v4_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_16s_v4.MD5) | 50k tags
 
 - ### Microbial Resequencing
 
@@ -123,7 +123,7 @@ species | left reads | right reads | md5sum | data size
 
 species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
-E.coli | [Novogene_e.coli_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105811/Novogene_e.coli_R1.fq.gz) | [Novogene_e.coli_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105815/Novogene_e.coli_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_e_coli.MD5) | 50k tags
+E.coli | [Novogene_e.coli_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105811/Novogene_e.coli_R1.fq.gz) | [Novogene_e.coli_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105815/Novogene_e.coli_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_e_coli.MD5) | 1.7G
 
 ## Citations
 - [GIAB - Genome in a Bottle](https://www.nist.gov/programs-projects/genome-bottle)
