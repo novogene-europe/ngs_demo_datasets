@@ -107,7 +107,7 @@ species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
 Human | [Novogene_10x_genome_i1_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531121620/Novogene_10x_genome_i1_R1.fq.gz) [Novogene_10x_genome_i2_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531121810/Novogene_10x_genome_i2_R1.fq.gz) [Novogene_10x_genome_i3_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122003/Novogene_10x_genome_i3_R1.fq.gz) [Novogene_10x_genome_i4_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122251/Novogene_10x_genome_i4_R1.fq.gz) | [Novogene_10x_genome_i1_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531121714/Novogene_10x_genome_i1_R2.fq.gz) [Novogene_10x_genome_i2_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531121905/Novogene_10x_genome_i2_R2.fq.gz) [Novogene_10x_genome_i3_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122125/Novogene_10x_genome_i3_R2.fq.gz) [Novogene_10x_genome_i4_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122349/Novogene_10x_genome_i4_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/10x_genomics/Novogene_10x_genome.MD5) | 100G
 
-## 5.Microbial Genome Sequencing
+## 5. Microbial Genome Sequencing
 
 - ### 16S Amplicon Sequencing
 
