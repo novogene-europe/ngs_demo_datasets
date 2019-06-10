@@ -43,6 +43,8 @@ Transcriptome or RNA sequencing can be ultilized to analysis many classes of RNA
 
 - ### mRNA Sequencing
 
+**Sequencing strategy**: Illumina NovaSeq, PE150
+
 species | left reads | right reads | md5sum | spike-in | data size
 ---|:--:|:--:|:--:|:--:|:--
 Human | [Novogene_human_mrnaseq_rep1_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531130352/Novogene_human_mrnaseq_rep1_R1.fq.gz) | [Novogene_human_mrnaseq_rep1_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531130421/Novogene_human_mrnaseq_rep1_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/transcriptome_sequencing/Novogene_human_mrnaseq_rep1.MD5) | Y | 15G
@@ -54,11 +56,15 @@ Arabidopsis | [Novogene_arabidopsis_mrnaseq_rep3_R1.fq.gz](https://hweu-ld.oss-e
 
 - ### Whole RNA Sequencing
 
+**Sequencing strategy**: Illumina NovaSeq, PE150
+
 species | left reads | right reads | md5sum | spike-in | data size
 ---|:--:|:--:|:--:|:--:|:--
 Human | [Novogene_human_wholernaseq_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190601151739/Novogene_human_wholernaseq_R1.fq.gz) | [Novogene_human_wholernaseq_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190601151812/Novogene_human_wholernaseq_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/transcriptome_sequencing/Novogene_human_wholernaseq.MD5) | N | 15G
 
 - ### Single Cell RNA Sequencing
+
+**Sequencing strategy**: Illumina NovaSeq, PE150
 
 species | left reads | right reads | md5sum | spike-in | data size
 ---|:--:|:--:|:--:|:--:|:--
@@ -69,11 +75,15 @@ Arabidopsis | [Novogene_arabidopsis_singlecell_R1.fq.gz](https://hweu-ld.oss-eu-
 
 - ### Isoform Sequencing (Iso-Seq)
 
+**Sequencing strategy**: PacBio Sequel
+
 species | subread_bam | subread_bam_index | md5sum | data size
 ---|:--:|:--:|:--:|:--
 Human | [Novogene_pacbio_isoseq_subreads.bam](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190601152411/Novogene_pacbio_isoseq_subreads.bam) | [Novogene_pacbio_isoseq_subreads.bam.pbi](https://github.com/zanmer/NGS-data/blob/master/pacbio_sequencing/Novogene_pacbio_isoseq_subreads.bam.pbi) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/pacbio_sequencing/Novogene_pacbio_isoseq.MD5) | 4G
 
 - ### Pacbio Genome Sequencing
+
+**Sequencing strategy**: PacBio Sequel
 
 species | subread_bam | subread_bam_index | md5sum | data size
 ---|:--:|:--:|:--:|:--
@@ -83,11 +93,15 @@ Unknown | [Novogene_pacbio_genome_subreads.bam](https://hweu-ld.oss-eu-west-1.al
 ## 4. 10X Genomics
 - ### 10X Single Cell Gene Expression
 
+**Sequencing strategy**: Illumina NovaSeq, PE150
+
 species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
 Human | [Novogene_10x_singlecell_i1_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122450/Novogene_10x_singlecell_i1_R1.fq.gz) [Novogene_10x_singlecell_i2_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122519/Novogene_10x_singlecell_i2_R1.fq.gz) [Novogene_10x_singlecell_i3_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122601/Novogene_10x_singlecell_i3_R1.fq.gz) [Novogene_10x_singlecell_i4_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122628/Novogene_10x_singlecell_i4_R1.fq.gz) | [Novogene_10x_singlecell_i1_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122506/Novogene_10x_singlecell_i1_R2.fq.gz) [Novogene_10x_singlecell_i2_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122542/Novogene_10x_singlecell_i2_R2.fq.gz) [Novogene_10x_singlecell_i3_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122616/Novogene_10x_singlecell_i3_R2.fq.gz) [Novogene_10x_singlecell_i4_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190531122644/Novogene_10x_singlecell_i4_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/10x_genomics/Novogene_10x_singlecell.MD5) | 27G
 
 - ### 10X Linked-Reads Genome Sequencing
+
+**Sequencing strategy**: Illumina NovaSeq, PE150
 
 species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
@@ -96,15 +110,20 @@ Human | [Novogene_10x_genome_i1_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs
 ## 5.Microbial Genome Sequencing
 
 - ### 16S Amplicon Sequencing
+
+**Sequencing strategy**: Illumina Hiseq, PE250
+
 species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
 16S V4 | [Novogene_16s_v4_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105819/Novogene_16s_v4_R1.fq.gz) | [Novogene_16s_v4_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105820/Novogene_16s_v4_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_16s_v4.MD5) | 1.7G
 
 - ### Microbial Resequencing
 
+**Sequencing strategy**: Illumina NovaSeq, PE150
+
 species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
-E.coli | [Novogene_e.coli_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105811/Novogene_e.coli_R1.fq.gz) | [Novogene_e.coli_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105815/Novogene_e.coli_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_e_coli.MD5) | 
+E.coli | [Novogene_e.coli_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105811/Novogene_e.coli_R1.fq.gz) | [Novogene_e.coli_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105815/Novogene_e.coli_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_e_coli.MD5) | 50k tags
 
 ## Citations
 - [GIAB - Genome in a Bottle](https://www.nist.gov/programs-projects/genome-bottle)
