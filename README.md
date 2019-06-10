@@ -123,7 +123,7 @@ species | left reads | right reads | md5sum | data size
 
 species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
-E.coli | [Novogene_e.coli_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105811/Novogene_e.coli_R1.fq.gz) | [Novogene_e.coli_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105815/Novogene_e.coli_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_e_coli.MD5) | 1.7G
+E. coli | [Novogene_e.coli_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105811/Novogene_e.coli_R1.fq.gz) | [Novogene_e.coli_R2.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs.com/demo/20190610105815/Novogene_e.coli_R2.fq.gz) | [md5](https://github.com/novogene-europe/ngs_demo_datasets/blob/master/microbial_genome_sequencing/Novogene_e_coli.MD5) | 1.7G
 
 ## Citations
 - [GIAB - Genome in a Bottle](https://www.nist.gov/programs-projects/genome-bottle)
