@@ -111,7 +111,7 @@ Human | [Novogene_10x_genome_i1_R1.fq.gz](https://hweu-ld.oss-eu-west-1.aliyuncs
 
 - ### 16S Amplicon Sequencing
 
-**Sequencing strategy**: Illumina Hiseq, PE250
+**Sequencing strategy**: Illumina NovaSeq, PE250
 
 species | left reads | right reads | md5sum | data size
 ---|:--:|:--:|:--:|:--
