@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This deposity contains many kinds of sequencing datasets from Novogene. Any researchers, clinicians or collaborators who are interested in NGS can download freely. And we apriciate that you could give us any advice or suggestions.
+This deposity contains many kinds of sequencing datasets from Novogene. Any researchers, clinicians or collaborators who are interested in NGS can download freely. And we appreciate that you could give us any advice or suggestions.
 
 ## 1. Human Genome Sequencing
 
